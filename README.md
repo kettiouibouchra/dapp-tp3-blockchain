@@ -1,5 +1,5 @@
 ## 📌 Description du projet
-Ce projet est une *application décentralisée (dApp)* réalisée dans le cadre du *module Blockchain & Web3* du Master GLCC (S2).  
+Ce projet est une *application décentralisée (dApp)* réalisée dans le cadre du *module Blockchain & Web3* .  
 L’objectif est de développer une interface interactive permettant d’exécuter et de tester *huit contrats intelligents Solidity* couvrant différents concepts du langage.
 
 L’application utilise *Truffle, **Ganache, **ReactJS* et *Web3.js* pour offrir une expérience complète allant de l’écriture des smart contracts à leur interaction via une interface web.
@@ -26,22 +26,6 @@ L’application utilise *Truffle, **Ganache, **ReactJS* et *Web3.js* pour offrir
 - *VS Code* – IDE principal du projet  
 - *Git & GitHub* – gestion de versions et collaboration  
 
----
-
-## 📂 Structure du projet
-dapp-tp3/
-├── contracts/ # Tous les contrats Solidity (Exercice1.sol … Exercice8.sol)
-├── migrations/ # Scripts de déploiement Truffle
-├── test/ # (Facultatif) Tests Truffle
-├── tp3-frontend/ # Frontend React
-│ ├── src/
-│ │ ├── components/ # Navbar, ExerciseCard, BlockchainInfo, TransactionInfo
-│ │ ├── exercises/ # Une page par exercice
-│ │ └── utils/ # loadContract.js et fonctions utilitaires
-│ ├── public/
-│ └── package.json
-├── truffle-config.js
-└── README.md
 
 
 ## ⚙️ Installation et exécution
